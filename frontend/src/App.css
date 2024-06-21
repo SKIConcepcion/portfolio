@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Visby-bold';
+    src: url('./fonts/Fontspring-DEMO-visbycf-bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Visby-heavy';
+    src: url('./fonts/Fontspring-DEMO-visbycf-heavy.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+}
+  
+.title {
+    font-family: 'Visby-heavy', sans-serif;
+    font-size: 27px;
+    color: #504E4F;
+    margin: 0;
+}
+  
+.highlight {
+    color: red;
+}
+  
+.navbar {
+    display: flex;
+}
+  
+.nav-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.nav-item {
+    margin-left: 20px;
+    cursor: pointer;
+}
+  
+.nav-item:hover {
+    text-decoration: underline;
+}
+  
+.App {
+    text-align: center;
+}
+  
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+  
+.grid-item {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+  
